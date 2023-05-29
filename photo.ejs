@@ -1,0 +1,55 @@
+<%- include('views/partials/_header') -%>
+
+<div class="row mb-5 pb-4">
+  <div class="col-12 " style="max-width: 100%; height: auto;">
+    <img src="<%= photo.image %>" alt="image" class="img-fluid tm-catalog-item-img" width="auto" height="auto" >
+  </div>
+</div>
+<div class="row mb-5 pb-5">
+  <div class="col-xl-8 col-lg-7">
+    <!-- Video description -->
+    <div class="tm-video-description-box">
+      <h2 class="mb-5 tm-video-title"><%= photo.title %></h2>
+      <p class="mb-4"><%= photo.description %></p>
+    </div>
+  </div>
+  <div class="col-xl-4 col-lg-5">
+    <!-- Share box -->
+    <div class="tm-bg-gray tm-share-box">
+      <h6 class="tm-share-box-title mb-4">Share this video</h6>
+      <div class="mb-5 d-flex">
+        <a href="" class="tm-bg-white tm-share-button"
+          ><i class="fab fa-facebook"></i
+        ></a>
+        <a href="" class="tm-bg-white tm-share-button"
+          ><i class="fab fa-twitter"></i
+        ></a>
+        <a href="" class="tm-bg-white tm-share-button"
+          ><i class="fab fa-pinterest"></i
+        ></a>
+        <a href="" class="tm-bg-white tm-share-button"
+          ><i class="far fa-envelope"></i
+        ></a>
+      </div>
+      <p class="mb-4">
+        Author:
+        <a href="https://templatemo.com" class="tm-text-link">TemplateMo</a>
+      </p>
+
+      <div>
+        <button
+          class="btn btn-primary p-0 mb-5 tm-btn-animate tm-btn-download tm-icon-download"
+        >
+          <span>Update Details</span>
+        </button>
+      </div>
+      <div>
+        <button
+          class="btn btn-danger p-0 tm-btn-animate tm-btn-download tm-icon-download"
+        >
+          <span>Detele Photo</span>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
